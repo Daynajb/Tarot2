@@ -1,0 +1,300 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #151415;
+    background-color: #121212;
+}
+
+
+.land {}
+
+.vidhom {
+
+
+
+    margin-left: 35%;
+    max-height: 80vh;
+    position: absolute;
+}
+
+.and {
+    position: relative;
+    height: 10vh;
+    padding-left: 20px;
+    margin-top: 10px;
+
+}
+
+.Fig {
+    position: relative;
+    height: 10vh;
+    padding-right: 20px;
+    margin-top: 10px;
+    float: right;
+
+}
+
+.GBT {
+    position: absolute;
+    height: 10vh;
+    padding-right: 20px;
+    bottom: 10px;
+    right: 0;
+}
+
+.git {
+    position: absolute;
+    height: 10vh;
+    padding-left: 20px;
+    bottom: 10px;
+    left: 0;
+
+}
+
+.sparkle1 {
+    position: absolute;
+    height: 20vh;
+    padding-left: 20px;
+    bottom: 300px;
+    left: 100px;
+     animation-duration: 3s; /* Choose the desired duration */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+
+}
+
+
+.sparkle2 {
+    position: absolute;
+    height: 15vh;
+    padding-left: 20px;
+    bottom: 300px;
+    right: 100px;
+     animation-duration: 3s; /* Choose the desired duration */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+
+}
+
+.sparkle3 {
+    position: absolute;
+    height: 20vh;
+    padding-left: 20px;
+    bottom: 500px;
+    right: 100px;
+     animation-duration: 3s; /* Choose the desired duration */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+
+}
+
+.sparkle4 {
+    position: absolute;
+    height: 10vh;
+    padding-left: 20px;
+    bottom: 100px;
+    right: 200px;
+     animation-duration: 3s; /* Choose the desired duration */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+
+}
+
+.sparkle5 {
+    position: absolute;
+    height: 20vh;
+    padding-left: 20px;
+    bottom: 100px;
+    left: 200px;
+     animation-duration: 3s; /* Choose the desired duration */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+
+}
+
+.sparkle6 {
+    position: absolute;
+    height: 15vh;
+    padding-left: 20px;
+    top: 100px;
+    left: 200px;
+     animation-duration: 3s; /* Choose the desired duration */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+
+}
+
+.sparkle7 {
+    position: absolute;
+    height: 15vh;
+    padding-left: 20px;
+    top: 100px;
+    right: 400px;
+     animation-duration: 3s; /* Choose the desired duration */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+
+}
+
+.sparkle8 {
+    position: absolute;
+    height: 15vh;
+    padding-left: 20px;
+    top: 300px;
+    right: 400px;
+     animation-duration: 3s; /* Choose the desired duration */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+
+}
+.sparkle9 {
+    position: absolute;
+    height: 6vh;
+    padding-left: 20px;
+    bottom: 100px;
+    right: 400px;
+     animation-duration: 3s; /* Choose the desired duration */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+
+}
+
+.sparkle10 {
+    position: absolute;
+    height: 10vh;
+    padding-left: 20px;
+    top: 100px;
+    left: 400px;
+     animation-duration: 3s; /* Choose the desired duration */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+
+}
+
+.sparkle11 {
+    position: absolute;
+    height: 15vh;
+    padding-left: 20px;
+   bottom: 50px;
+    left: 400px;
+     animation-duration: 3s; /* Choose the desired duration */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+
+}
+
+.sparkle12 {
+    position: absolute;
+    height: 8vh;
+    padding-left: 20px;
+   bottom: 400px;
+    left: 400px;
+     animation-duration: 3s; /* Choose the desired duration */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+}
+
+.sparkle13 {
+    position: absolute;
+    height: 8vh;
+    padding-left: 20px;
+   bottom: 250px;
+    right: 300px;
+     animation-duration: 3s; /* Choose the desired duration */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+}
+
+.sparkle14 {
+    position: absolute;
+    height: 8vh;
+    padding-left: 20px;
+   bottom: 500px;
+    left: 30px;
+     animation-duration: 3s; /* Choose the desired duration */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+}
+
+
+/*HUBSPOT TUTORIAL for Fade in 
+https://blog.hubspot.com/website/css-fade-in*/
+
+/*w3 tutorial for animating upwards
+https://www.w3docs.com/snippets/css/how-to-create-animation-on-page-load.html*/
+
+
+@keyframes fadeInAndSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.welcome {
+    animation-duration: 3s; /* Choose the desired duration */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+    font-family: Afronaut;
+    font-size: 35px;
+    position: absolute;
+    color: #8086FF;
+    justify-content: center;
+    margin-top: 60vh;
+    margin-left: 37%;
+    text-align: center;
+}
+
+.clicker {
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+    font-family: Afronaut;
+    font-size: 17px;
+    position: absolute;
+    color: #8086FF;
+    justify-content: center;
+    margin-top: 70vh;
+    margin-left: 39%;
+/*This section was found using chat gbt sorry */
+    opacity: 0; 
+     animation-fill-mode: forwards;
+}
+
+
