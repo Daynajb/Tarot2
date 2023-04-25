@@ -172,6 +172,7 @@ margin-right: 90%;
 /*Floaty bits from Geeks for geeks tutorial https://www.geeksforgeeks.org/css-floating-animation/*/
 
 /*ALL THE FLOATING BITS N BOBS*/
+/*The tags are hell because I was in a frustrated headspace when coding this soz */
 
 .hell {
      z-index: 1;
@@ -291,10 +292,248 @@ margin-right: 90%;
     }
 }
 
+@media screen and (max-width: 1400px) {
+    
+    #imageText{ font-family: space grotesk;
+    font-size: 16px;
+    font-weight: 100;
+    position: absolute;
+    color: #D5CAB5;
+    position: absolute;
+    max-width:30%;
+    margin-top: 28vh;
+    margin-left:7%;
+    z-index: 20;
+
+}
+#imageHeading{ font-family: Afronaut;
+    font-size: 30px;
+    position: absolute;
+    color: #D5CAB5;
+    position: absolute;
+    max-width:40%;
+    margin-top: 18vh;
+    margin-left:7%;
+    z-index: 20;
+
+}
+
+#imageButton{ 
+    font-family: space grotesk;
+    font-size: 25px;
+    position: absolute;
+    color: #8081FF;
+    position: absolute;
+    margin-top: 71vh;
+     margin-left:7%;
+    z-index: 5;
+}
+  
+
+#images{border: 5px solid #555; }
+
+#anotherButton{font-family: Afronaut;
+    font-size: 45px;
+  
+    color: #D5CAB5;
+
+  
+    margin-top: 30vh;
+margin-right: 90%;
+}
 
 
+    }
+
+
+@media screen and (max-width: 800px) {
+    #randomImageBtn1 {
+        display: none
+    }
+
+    #randomImageBtn2 {
+        display: none
+    }
+     #randomImageBtn {
+        display: none
+    }
+
+
+    #randomImageBtnsm {
+        display: block;
+       position: relative;
+        max-width: 70%;
+  padding-top: 12vh;
+        cursor: pointer;
+        z-index: 800;
+        display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+        margin:auto;
+    }
+    
+    #randomImage {
+    max-width: 30.5vh;
+    height: auto;
+   margin-top: 12vh;
+    border: 0.35px solid #D5CAB5;
+}
+    
+    #imageText{ font-family: space grotesk;
+    font-size: 16px;
+    font-weight: 100;
+    position: absolute;
+    color: #D5CAB5;
+    position: absolute;
+    max-width:80%;
+    margin-top: 70vh;
+    margin-left:10%;
+          z-index: 9999;
+
+}
+#imageHeading{ font-family: Afronaut;
+    font-size: 30px;
+    position: absolute;
+    color: #D5CAB5;
+    position: absolute;
+    max-width:80%;
+    margin-top: 65vh;
+    margin-left:10%;
+    z-index: 9999;
+
+}
+    
+#imageButton{ 
+    font-family: space grotesk;
+    font-size: 20px;
+    position: absolute;
+    color: #8081FF;
+    position: absolute;
+    margin-top: 85vh;
+     margin-left:40%;
+    z-index: 9999;
+}
+  
+    
+    .welcome {
+    animation-duration: 2s; /* Choose the desired duration */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+    font-family: Afronaut;
+    font-size: 20px;
+    position: absolute;
+    color: #D5CAB5;
+    justify-content: center;
+    padding-top: 70vh;
+    margin:auto;
+        text-align: center;
+}
+    
+    #myDiv {
+    display: none;
+}
+
+
+}
 
 @media screen and (max-width: 900px) {
+    #randomImageBtn1 {
+        display: none
+    }
+
+    #randomImageBtn2 {
+        display: none
+    }
+     #randomImageBtn {
+        display: none
+    }
+
+
+    #randomImageBtnsm {
+        display: block;
+       position: relative;
+        max-width: 30%;
+  padding-top: 12vh;
+        cursor: pointer;
+        z-index: 800;
+        display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+        margin:auto;
+    }
+    
+    #randomImage {
+    max-width: 30.5vh;
+    height: auto;
+   margin-top: 12vh;
+    border: 0.35px solid #D5CAB5;
+}
+    
+    #imageText{ font-family: space grotesk;
+    font-size: 16px;
+    font-weight: 100;
+    position: absolute;
+    color: #D5CAB5;
+    position: absolute;
+    max-width:80%;
+    margin-top: 70vh;
+    margin-left:10%;
+          z-index: 9999;
+
+}
+#imageHeading{ font-family: Afronaut;
+    font-size: 30px;
+    position: absolute;
+    color: #D5CAB5;
+    position: absolute;
+    max-width:80%;
+    margin-top: 65vh;
+    margin-left:10%;
+    z-index: 9999;
+
+}
+    
+#imageButton{ 
+    font-family: space grotesk;
+    font-size: 20px;
+    position: absolute;
+    color: #8081FF;
+    position: absolute;
+    margin-top: 85vh;
+     margin-left:40%;
+    z-index: 9999;
+}
+  
+    
+    .welcome {
+    animation-duration: 2s; /* Choose the desired duration */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+    font-family: Afronaut;
+    font-size: 20px;
+    position: absolute;
+    color: #D5CAB5;
+    justify-content: center;
+    padding-top: 70vh;
+    margin:auto;
+        text-align: center;
+}
+    
+    #myDiv {
+    display: none;
+}
+
+
+}
+
+
+@media screen and (max-width: 600px) {
     #randomImageBtn1 {
         display: none
     }
