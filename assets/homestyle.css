@@ -305,6 +305,345 @@ The animation lasts 3seconds. It has no delay on loading. It only happens one ti
     animation-fill-mode: forwards;
 }
 
+
+@media screen and (max-width: 1200px) {
+    
+    .vidhom {
+    margin-left: 35%;
+    max-height: 50vh;
+    position: absolute;
+       margin-top: 100px;
+      
+}
+
+.and {
+    position: relative;
+    height: 5vh;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.Fig {
+    position: relative;
+    height: 5vh;
+    padding-right: 20px;
+    margin-top: 10px;
+    float: right;
+}
+
+.GBT {
+    position: absolute;
+    height: 5vh;
+    padding-right: 20px;
+    bottom: 10px;
+    right: 0;
+}
+
+.git {
+    position: absolute;
+    height: 5vh;
+    padding-left: 20px;
+    bottom: 10px;
+    left: 0;
+
+}
+
+.sparkle1 {
+
+  
+
+}
+
+
+.sparkle2 {
+  
+     
+
+}
+
+.sparkle3 {
+
+      
+
+}
+
+.sparkle4 {
+    
+     
+
+}
+
+.sparkle5 {
+ 
+      display: none;
+
+}
+
+.sparkle6 {
+  
+     
+
+}
+
+.sparkle7 {
+
+      display: none;
+
+}
+
+.sparkle8 {
+ 
+      display: none;
+
+}
+
+.sparkle9 {
+ 
+      display: none;
+
+}
+
+.sparkle10 {
+
+      display: none;
+
+}
+
+.sparkle11 {
+
+      display: none;
+
+}
+
+.sparkle12 {
+
+      display: none;
+}
+
+.sparkle13 {
+
+      display: none;
+}
+
+.sparkle14 {
+  
+      display: none;
+}
+
+.welcome {
+    animation-duration: 3s;
+    /* Choose the desired duration */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+    font-family: Afronaut;
+    font-size: 35px;
+    position: absolute;
+    color: #8086FF;
+    justify-content: center;
+    margin-top: 60vh;
+    margin-left:30%;
+    margin-right: 30%;
+       text-align: center;
+    
+ 
+    text-align: center;
+}
+
+.clicker {
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+    font-family: Afronaut;
+    font-size: 17px;
+    position: absolute;
+    color: #8086FF;
+    justify-content: center;
+    margin-top: 74vh;
+    margin-left:33%;
+    margin-right: 30%;
+       text-align: center;
+    
+   
+}
+    
+   
+
+    
+    
+}
+
+@media screen and (max-width: 900px) {
+    
+    .vidhom {
+    margin-left: 30%;
+    max-height: 50vh;
+    position: absolute;
+       margin-top: 100px;
+}
+
+.and {
+    position: relative;
+    height: 5vh;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.Fig {
+    position: relative;
+    height: 5vh;
+    padding-right: 20px;
+    margin-top: 10px;
+    float: right;
+}
+
+.GBT {
+    position: absolute;
+    height: 5vh;
+    padding-right: 20px;
+    bottom: 10px;
+    right: 0;
+}
+
+.git {
+    position: absolute;
+    height: 5vh;
+    padding-left: 20px;
+    bottom: 10px;
+    left: 0;
+
+}
+
+.sparkle1 {
+
+    display: none;
+
+}
+
+
+.sparkle2 {
+  
+      display: none;
+
+}
+
+.sparkle3 {
+
+      display: none;
+
+}
+
+.sparkle4 {
+    
+      display: none;
+
+}
+
+.sparkle5 {
+ 
+      display: none;
+
+}
+
+.sparkle6 {
+  
+      display: none;
+
+}
+
+.sparkle7 {
+
+      display: none;
+
+}
+
+.sparkle8 {
+ 
+      display: none;
+
+}
+
+.sparkle9 {
+ 
+      display: none;
+
+}
+
+.sparkle10 {
+
+      display: none;
+
+}
+
+.sparkle11 {
+
+      display: none;
+
+}
+
+.sparkle12 {
+
+      display: none;
+}
+
+.sparkle13 {
+
+      display: none;
+}
+
+.sparkle14 {
+  
+      display: none;
+}
+
+.welcome {
+    animation-duration: 3s;
+    /* Choose the desired duration */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+    font-family: Afronaut;
+    font-size: 35px;
+    position: absolute;
+    color: #8086FF;
+    justify-content: center;
+    margin-top: 60vh;
+    margin-left:26%;
+    margin-right: 11%;
+    
+ 
+    text-align: center;
+}
+
+.clicker {
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+    font-family: Afronaut;
+    font-size: 17px;
+    position: absolute;
+    color: #8086FF;
+    justify-content: center;
+    margin-top: 74vh;
+    margin-left:30%;
+    margin-right: 30%;
+       text-align: center;
+    
+   
+}
+    
+   
+
+    
+    
+}
+
 @media screen and (max-width: 700px) {
     
     .vidhom {
@@ -472,3 +811,4 @@ The animation lasts 3seconds. It has no delay on loading. It only happens one ti
     
     
 }
+

@@ -36,7 +36,7 @@ h1 {
 
 }
 #imageHeading{ font-family: Afronaut;
-    font-size: 45px;
+    font-size: 42px;
     position: absolute;
     color: #D5CAB5;
     position: absolute;
@@ -292,7 +292,7 @@ margin-right: 90%;
     }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
     
     #imageText{ font-family: space grotesk;
     font-size: 16px;
@@ -455,7 +455,7 @@ margin-right: 90%;
     #randomImageBtnsm {
         display: block;
        position: relative;
-        max-width: 30%;
+        max-width: 37%;
   padding-top: 12vh;
         cursor: pointer;
         z-index: 800;
@@ -533,6 +533,8 @@ margin-right: 90%;
 }
 
 
+
+
 @media screen and (max-width: 600px) {
     #randomImageBtn1 {
         display: none
@@ -549,7 +551,7 @@ margin-right: 90%;
     #randomImageBtnsm {
         display: block;
        position: relative;
-        max-width: 48%;
+        max-width: 60%;
   padding-top: 12vh;
         cursor: pointer;
         z-index: 800;
