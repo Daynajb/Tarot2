@@ -246,6 +246,17 @@ https://blog.hubspot.com/website/css-fade-in*/
 /*w3 tutorial for animating upwards
 https://www.w3docs.com/snippets/css/how-to-create-animation-on-page-load.html*/
 
+/*What I learned from these tutorials:
+You create the animation using the @keyframes and then naming it to call for each element. In this case I named it fadeInslideIn because it fades in and slides in. The opacity at the start of the animation is 0% and at the end its 1 because its fully visible. Then I piut this in each element:  animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadeInAndSlideIn;
+The animation lasts 3seconds. It has no delay on loading. It only happens one time, not like a looping animation and it is called by my label of fadeInslideIn. 
+
+
+*/
+
 
 @keyframes fadeInAndSlideIn {
     0% {
