@@ -52,7 +52,6 @@ body {
     bottom: 300px;
     left: 100px;
     animation-duration: 3s;
-    /* Choose the desired duration */
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -68,7 +67,6 @@ body {
     bottom: 300px;
     right: 100px;
     animation-duration: 3s;
-    /* Choose the desired duration */
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -83,7 +81,6 @@ body {
     bottom: 500px;
     right: 100px;
     animation-duration: 3s;
-    /* Choose the desired duration */
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -98,7 +95,6 @@ body {
     bottom: 100px;
     right: 200px;
     animation-duration: 3s;
-    /* Choose the desired duration */
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -113,7 +109,6 @@ body {
     bottom: 100px;
     left: 200px;
     animation-duration: 3s;
-    /* Choose the desired duration */
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -128,7 +123,6 @@ body {
     top: 100px;
     left: 200px;
     animation-duration: 3s;
-    /* Choose the desired duration */
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -143,7 +137,6 @@ body {
     top: 100px;
     right: 400px;
     animation-duration: 3s;
-    /* Choose the desired duration */
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -158,7 +151,6 @@ body {
     top: 300px;
     right: 400px;
     animation-duration: 3s;
-    /* Choose the desired duration */
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -173,7 +165,6 @@ body {
     bottom: 100px;
     right: 400px;
     animation-duration: 3s;
-    /* Choose the desired duration */
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -188,7 +179,6 @@ body {
     top: 100px;
     left: 400px;
     animation-duration: 3s;
-    /* Choose the desired duration */
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -203,7 +193,6 @@ body {
     bottom: 50px;
     left: 400px;
     animation-duration: 3s;
-    /* Choose the desired duration */
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -218,7 +207,6 @@ body {
     bottom: 400px;
     left: 400px;
     animation-duration: 3s;
-    /* Choose the desired duration */
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -232,7 +220,6 @@ body {
     bottom: 250px;
     right: 300px;
     animation-duration: 3s;
-    /* Choose the desired duration */
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -246,7 +233,6 @@ body {
     bottom: 500px;
     left: 30px;
     animation-duration: 3s;
-    /* Choose the desired duration */
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -275,7 +261,6 @@ https://www.w3docs.com/snippets/css/how-to-create-animation-on-page-load.html*/
 
 .welcome {
     animation-duration: 3s;
-    /* Choose the desired duration */
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -308,7 +293,7 @@ https://www.w3docs.com/snippets/css/how-to-create-animation-on-page-load.html*/
     animation-fill-mode: forwards;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
     
     .vidhom {
     margin-left: 12%;
@@ -350,224 +335,84 @@ https://www.w3docs.com/snippets/css/how-to-create-animation-on-page-load.html*/
 }
 
 .sparkle1 {
-    position: absolute;
-    height: 20vh;
-    padding-left: 20px;
-    bottom: 300px;
-    left: 100px;
-    animation-duration: 3s;
-    /* Choose the desired duration */
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-name: fadeInAndSlideIn;
+
     display: none;
 
 }
 
 
 .sparkle2 {
-    position: absolute;
-    height: 15vh;
-    padding-left: 20px;
-    bottom: 300px;
-    right: 100px;
-    animation-duration: 3s;
-    /* Choose the desired duration */
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-name: fadeInAndSlideIn;
+  
       display: none;
 
 }
 
 .sparkle3 {
-    position: absolute;
-    height: 20vh;
-    padding-left: 20px;
-    bottom: 500px;
-    right: 100px;
-    animation-duration: 3s;
-    /* Choose the desired duration */
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-name: fadeInAndSlideIn;
+
       display: none;
 
 }
 
 .sparkle4 {
-    position: absolute;
-    height: 10vh;
-    padding-left: 20px;
-    bottom: 100px;
-    right: 200px;
-    animation-duration: 3s;
-    /* Choose the desired duration */
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-name: fadeInAndSlideIn;
+    
       display: none;
 
 }
 
 .sparkle5 {
-    position: absolute;
-    height: 20vh;
-    padding-left: 20px;
-    bottom: 100px;
-    left: 200px;
-    animation-duration: 3s;
-    /* Choose the desired duration */
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-name: fadeInAndSlideIn;
+ 
       display: none;
 
 }
 
 .sparkle6 {
-    position: absolute;
-    height: 15vh;
-    padding-left: 20px;
-    top: 100px;
-    left: 200px;
-    animation-duration: 3s;
-    /* Choose the desired duration */
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-name: fadeInAndSlideIn;
+  
       display: none;
 
 }
 
 .sparkle7 {
-    position: absolute;
-    height: 15vh;
-    padding-left: 20px;
-    top: 100px;
-    right: 400px;
-    animation-duration: 3s;
-    /* Choose the desired duration */
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-name: fadeInAndSlideIn;
+
       display: none;
 
 }
 
 .sparkle8 {
-    position: absolute;
-    height: 15vh;
-    padding-left: 20px;
-    top: 300px;
-    right: 400px;
-    animation-duration: 3s;
-    /* Choose the desired duration */
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-name: fadeInAndSlideIn;
+ 
       display: none;
 
 }
 
 .sparkle9 {
-    position: absolute;
-    height: 6vh;
-    padding-left: 20px;
-    bottom: 100px;
-    right: 400px;
-    animation-duration: 3s;
-    /* Choose the desired duration */
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-name: fadeInAndSlideIn;
+ 
       display: none;
 
 }
 
 .sparkle10 {
-    position: absolute;
-    height: 10vh;
-    padding-left: 20px;
-    top: 100px;
-    left: 400px;
-    animation-duration: 3s;
-    /* Choose the desired duration */
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-name: fadeInAndSlideIn;
+
       display: none;
 
 }
 
 .sparkle11 {
-    position: absolute;
-    height: 15vh;
-    padding-left: 20px;
-    bottom: 50px;
-    left: 400px;
-    animation-duration: 3s;
-    /* Choose the desired duration */
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-name: fadeInAndSlideIn;
+
       display: none;
 
 }
 
 .sparkle12 {
-    position: absolute;
-    height: 8vh;
-    padding-left: 20px;
-    bottom: 400px;
-    left: 400px;
-    animation-duration: 3s;
-    /* Choose the desired duration */
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-name: fadeInAndSlideIn;
+
       display: none;
 }
 
 .sparkle13 {
-    position: absolute;
-    height: 8vh;
-    padding-left: 20px;
-    bottom: 250px;
-    right: 300px;
-    animation-duration: 3s;
-    /* Choose the desired duration */
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-name: fadeInAndSlideIn;
+
       display: none;
 }
 
 .sparkle14 {
-    position: absolute;
-    height: 8vh;
-    padding-left: 20px;
-    bottom: 500px;
-    left: 30px;
-    animation-duration: 3s;
-    /* Choose the desired duration */
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-name: fadeInAndSlideIn;
+  
       display: none;
 }
 
