@@ -30,7 +30,7 @@ const imageText = [
     },
      {
         url: 'world.png',
-        heading:'THE INTERNATIONAL',
+        heading:'THE EXPAT',
         text: 'The semester is nearing its end. It is time to file your OPT.',
            button: 'Try Again',
     },
